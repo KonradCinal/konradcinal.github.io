@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html class="home">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111474345-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111474345-1');
+    </script>
+
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Software engineer, agile and lean enthusiast, avid student of life, husband, father.">
@@ -11,7 +22,6 @@
     <meta name="twitter:title" content="Konrad Cinal">
     <meta name="twitter:description" content="Software engineer, agile and lean enthusiast, avid student of life, husband, father.">
     
-
     <title>Konrad Cinal</title>
 
     <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
@@ -19,7 +29,27 @@
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:800" type="text/css" media="all">
-    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/styles.min.css" type="text/css" media="all">
+
+    <link rel="stylesheet" type="text/css" href="/css/cookieconsent.min.css"/>
+    <script src="/js/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#ffffff"
+            },
+            "button": {
+              "background": "#000000"
+            }
+          },
+          "content": {
+            "message": "This website uses cookies to ensure you get the best experience on my website."
+          }
+        })
+      });
+    </script>
   </head>
 
   <body>
